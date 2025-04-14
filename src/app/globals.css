@@ -1,3 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply w-[120px] h-[40px] rounded-full font-semibold transition-colors duration-200 flex items-center justify-center;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary text-white hover:bg-primary-hover;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary text-gray-800 hover:bg-secondary-hover;
+  }
+  
+  .btn-disabled {
+    @apply btn bg-gray-300 text-gray-600 cursor-not-allowed;
+  }
+}
+
 body {
   margin: 0;
 }
