@@ -19,8 +19,3 @@ export interface User {
 export interface NewslettersBySite {
   [key: string]: Newsletter[];
 }
-
-export type UserSubscriptionStatus = 
-  | 'NO_SUBSCRIPTION'
-  | 'ONE_SUBSCRIPTION'
-  | 'MULTIPLE_SUBSCRIPTIONS'; 

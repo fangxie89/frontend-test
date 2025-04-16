@@ -4,7 +4,7 @@ import {
   USER_WITH_MULTIPLE_SUBSCRIPTION,
   USER_WITHOUT_SUBSCRIPTION
 } from '../../mocks/user';
-import { Newsletter, User, NewslettersBySite } from '../types';
+import { User, NewslettersBySite } from '../types';
 
 // Simulate API delay
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
